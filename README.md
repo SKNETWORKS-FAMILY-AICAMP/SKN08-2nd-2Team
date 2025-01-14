@@ -135,7 +135,17 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
 # 5. 전처리 과정
 
 # 6. 그래프
+### ✅나이대 별 통계
 ![customer_age_distribution](https://github.com/user-attachments/assets/d86081fc-d725-475c-83ea-feafe52d5833)
+
+### ✅성별에 따른 통계
+![customer_gender_distribution_pie](https://github.com/user-attachments/assets/5f16cf4e-88fd-4e6e-8a7b-b5d410e2bac7)
+
+### ✅물건 만족도 통계
+![product_satisfaction](https://github.com/user-attachments/assets/495717ca-ba38-473f-b3ea-6b85f7c05ef3)
+
+### ✅최다 판매 물건 통계
+![product_sales](https://github.com/user-attachments/assets/30d356f5-436c-42f1-b380-c1c803f6470c)
 
 <br><br><br>
 
