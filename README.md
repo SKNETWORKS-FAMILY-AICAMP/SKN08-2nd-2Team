@@ -33,7 +33,7 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
       </td>
       <td align="center">
         <div>
-          <img src="#" width="200" height="200">
+          <img src="https://avatars.githubusercontent.com/u/100367503?v=4" width="200" height="200">
         </div>
       </td>
       <td align="center">
