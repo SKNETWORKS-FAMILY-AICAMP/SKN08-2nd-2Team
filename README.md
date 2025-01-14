@@ -122,7 +122,7 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
 
 # 4. 애자일 보드
 ### ✅ Royal Bitters Data Analysis 
-![image](url)
+<img width="430" alt="image" src="https://github.com/user-attachments/assets/f43d04ff-a2d1-4ed8-a76b-36ae99325b0b" />
 <br><br><br>
 
 ### ✅ Collected Data Preview (활용 데이터셋)
