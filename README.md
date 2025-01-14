@@ -121,7 +121,7 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
 
 # 4. 애자일 보드
 ### ✅ Royal Bitters Data Analysis 
-![image](url)
+<img width="430" alt="image" src="https://github.com/user-attachments/assets/f43d04ff-a2d1-4ed8-a76b-36ae99325b0b" />
 <br><br><br>
 
 ### ✅ Collected Data Preview (활용 데이터셋)
@@ -224,6 +224,9 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
 
 
 # 6. 그래프
+![customer_age_distribution](https://github.com/user-attachments/assets/d86081fc-d725-475c-83ea-feafe52d5833)
+
+<br><br><br>
 
 # 7. EDA (상관관계 분석)
 상관관계 분석 -> 각 컬럼별로 상관관계표 넣기 plt.figure(figsize=(21, 9)) sns.heatmap(data.corr(), vmax=1.0, vmin=-1.0, cmap='coolwarm', annot=True)
