@@ -100,8 +100,9 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
     <td>PyCharm</td>
     <td><img src="https://img.shields.io/badge/pycharm-%23000000?style=flat&logo=pycharm&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"/></td>
-    <td><img src="#"/>Pandas</td> 
-    <td></td>
+    <td><img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/faker-FF5733?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEUAAAD+/v4PDw/5+fkBAQH+/v4AAAD+/v5vb29fX19DQ0PExMT9/f3n5+eVlZW/v7+fn59UVFRLS0tLS0tUVFRsbGxMTExGRkZmZmZ2dnafn5+bm5uUlJSIiIh9fX3BwcH39/fPz8/b29vLy8t8fHyDg4ODg4Pp6em3DWVtAAAAGnRSTlMAAQIDBAUGBwgJCgsMDQ4PEBESFBUWGxs7NYqzDwAAAIlJREFUGFdlj9tygkAQhi3zKsU1aSshKWqVu7v/f7eYMHAYgmDPPfyDmy5w+lvEwKkSUer06FCFgCI3IlxaOKIZaIh6v4Sk5pWXKaZBZo5AQ9jJ58plUsZoOJS0wDygmyRzL3La3F6Tu9kEjLZ5AvO4oHvHWEk3JHE2QsKbsv02F9B6Hz3y+0JzxP8QzGQ5WaQEUxsvrG3Jl8AAAAASUVORK5CYII="/></td>
+
     <td></td>
   </tr>
 </table> 
