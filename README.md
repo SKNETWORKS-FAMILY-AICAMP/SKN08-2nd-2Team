@@ -126,8 +126,21 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
 <br><br><br>
 
 ### ✅ Collected Data Preview (활용 데이터셋)
-![customer_blured](https://github.com/user-attachments/assets/bd0c0eee-c98e-4d91-bfbe-a7afa323361c)
 
+customer 데이터 
+![customer_blured](https://github.com/user-attachments/assets/bd0c0eee-c98e-4d91-bfbe-a7afa323361c)
+<br>
+
+product 데이터
+![products](https://github.com/user-attachments/assets/9e5e99b7-5332-4602-9fc2-d0bbc836c35f)
+<br>
+
+purchase 데이터
+![Untitled design](https://github.com/user-attachments/assets/e3a6d0e2-d832-409d-bb57-950273c24b71)
+<br>
+
+Satisfaction 데이터
+![satisfaction](https://github.com/user-attachments/assets/a8694169-70d3-41a8-a63e-dbf34df8d269)
 <br><br><br>
 
 
