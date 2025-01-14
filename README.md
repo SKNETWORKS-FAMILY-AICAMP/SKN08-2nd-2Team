@@ -131,7 +131,58 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
 
 
 
-# 5. 전처리 과정
+# 5. 프로젝트 진행 과정
+
+## **Generating Data**
+
+실제 데이터를 구하지 않고 Faker를 사용해서 가상의 데이터를 만들었다(./data/generate_data.py). 그 이유로는 데이터의 유연성, 실제 데이터의 반복 가능성, 테스트 환경 조성 그리고 데이터 수를 마음대로 조정할 수 있기 때문이다.
+
+Faker를 사용해서 가상의 `customer.csv`, `product.csv`, `purchases.csv` 데이터를 만들었다.
+
+---
+
+## **Preprocessing**
+
+### 1. 데이터 로드 및 결합
+- `products`, `purchases`, `customers` 데이터를 CSV 파일에서 로드합니다.
+- `purchases`와 `products` 데이터를 `ProductID`를 기준으로 결합하여 구매 기록과 제품 정보를 통합합니다.
+- 결합된 데이터에 고객 정보를 추가하기 위해 `CustomerID`를 기준으로 `customers` 데이터와 병합합니다.
+
+### 2. 날짜 데이터 처리
+- `purchaseDate` 열을 `datetime` 형식으로 변환하여 날짜 데이터를 다룰 수 있도록 합니다.
+
+### 3. RFM 데이터 생성
+- RFM은 고객 데이터를 요약하는 지표로, 다음을 계산합니다:
+  - **Recency**: 가장 최근 구매일로부터 현재까지 경과한 일수.
+  - **Frequency**: 고객의 구매 횟수.
+  - **Monetary**: 고객의 총 구매 금액.
+  - **Satisfaction**: 고객의 평균 만족도.
+- 데이터를 그룹화하여 고객별로 RFM 값을 계산하고, 각 고객의 `CustomerID`를 인덱스로 설정합니다.
+
+### 4. 추가 변수 생성
+- `Recency` 값이 90일을 초과하는 경우를 이탈(Churn)으로 간주하여 `Churn` 변수(이진 변수)를 생성합니다.
+- 이를 통해 고객 이탈 여부를 예측하기 위한 타겟 변수를 정의합니다.
+
+### 5. 데이터 인코딩
+- `Gender` 값을 `M: 0`, `F: 1`로 변환하여 머신러닝 모델이 처리할 수 있도록 숫자로 변환합니다.
+
+### 6. 데이터 분리
+- 독립 변수(X)와 종속 변수(y)를 분리합니다:
+  - **X**: `Recency`, `Frequency`, `Monetary`, `Satisfaction`, `Age`, `Gender`.
+  - **y**: `Churn`.
+- 데이터를 학습 데이터(70%)와 테스트 데이터(30%)로 나누어 모델 평가를 준비합니다.
+
+### 7. 데이터 스케일링
+- 머신러닝 알고리즘의 성능을 높이기 위해 `StandardScaler`를 사용하여 데이터 스케일링을 수행합니다.
+- 스케일링은 평균을 0, 표준 편차를 1로 맞춰 데이터의 분포를 표준화합니다.
+
+### 8. PCA (Principal Component Analysis)
+- PCA는 고차원 데이터를 저차원으로 압축하는 차원 축소 기법입니다.
+- `Quantity`, `Price_KRW`, `TotalAmount`, `Satisfaction`, `Age`, `Gender` 등 수치 데이터를 대상으로 PCA를 수행하여 주요 성분(Principal Components)을 생성합니다.
+- 생성된 주요 성분을 데이터로 활용하여 모델을 학습합니다.
+
+  
+
 
 # 6. 그래프
 
