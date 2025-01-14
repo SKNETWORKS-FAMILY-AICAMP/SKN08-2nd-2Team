@@ -136,7 +136,7 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
 
 # 6. 그래프
 
-# EDA (상관관계 분석)
+# 7. EDA (상관관계 분석)
 상관관계 분석 -> 각 컬럼별로 상관관계표 넣기 plt.figure(figsize=(21, 9)) sns.heatmap(data.corr(), vmax=1.0, vmin=-1.0, cmap='coolwarm', annot=True)
 결과 해석
 
