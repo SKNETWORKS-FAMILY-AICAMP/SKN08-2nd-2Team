@@ -6,19 +6,18 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
 
   <img width="1000" alt="image" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/7ea63fc3-95f0-44d5-a0f0-cf431cae34f1"> 
 
-  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN01-4th-1Team&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 </div>
 
 
 
 # 1. Introduction Team (팀 소개)
-### ✅ 팀명 : COACH
+### ✅ 팀명 : Royal Bitters
 <table align=center>
   <tbody>
     <tr>
       <td align=center><b>왕환민</b></td>
       <td align=center><b>김현우</b></td>
-      <td align=center><b>주고은</b></td>
+      <td align=center><b>양의정</b></td>
       <td align=center><b>손승일</b></td>
     </tr>
     <tr>
@@ -34,7 +33,7 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
       </td>
       <td align="center">
         <div>
-          <img src="https://avatars.githubusercontent.com/u/133327235?v=4" width="200" height="200">
+          <img src="#" width="200" height="200">
         </div>
       </td>
       <td align="center">
@@ -44,7 +43,7 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
     <tr>
       <td><a href="https://github.com/minleewang"><div align=center>@Hwan-Min</div></a></td>
       <td><a href="https://github.com/kimhyeonu4586"><div align=center>@hyeonu-kim</div></a></td>
-      <td><a href="https://github.com/Goeun-Ju"><div align=center>@Goeun-Ju</div></a></td>
+      <td><a href="https://github.com/UiJungYang"><div align=center>@UiJungYang</div></a></td>
       <td><a href="https://github.com/ajeseung"><div align=center>@ajeseung</div></a></td>
     </tr>
   </tbody>
@@ -56,22 +55,23 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
 # 2. Introduction Project (프로젝트 개요)
 
 ### ✅프로젝트 명
-전국 자동차 등록 현황 및 기업 FAQ 조회 웹앱
+이탈 고객 예측 (Lost Customer Prediction)
 
 ### ✅프로젝트 소개
-전국의 자동차 등록 현황을 조사하여 데이터를 시각화하고 관심 정보를 조회 할 수 있음
+자체 쇼핑몰에 등록한 고객 데이터를 활용하여 추후 고객이 얼마나 이탈할 것인지 데이터 분석을 통해 예측 
 
 ### ✅프로젝트 필요성(배경)
-- 
+- 고객의 이탈 원인을 파악해 더욱 만족스러운 서비스를 제공할 수 있음
 - 
 
 ### ✅프로젝트 목표
-- Domain Driven Design 학습 사항을 python으로 구현
-- Crawling 방식이 잘 동작하는지 검증
-- README.md 작성 방법 습득
-- streamlit을 활용한 UI 구성
-- MYSQL DB에 데이터를 삽입하고 꺼내오는 방법에 대한 동작 검증
-- 학습 내용들에 대한 전반적인 복습
+- 데이터 수집
+- 데이터 정제/ 전처리
+- 데이터 분석을 위한 모델 설정
+- 데이터 분석을 위한 그래프 생성
+- 분석 결과 해석
+- 유의미한 결론 도출
+- README.md 작성 
 <br><br><br>
 
 
@@ -94,32 +94,17 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
   </tr>  
 </table>
 
->### <span style="color:cyan"> Streamlit </span>
+>### <span style="color:cyan"> Data Analysis </span>
 <table>
   <tr>
     <td>PyCharm</td>
     <td><img src="https://img.shields.io/badge/pycharm-%23000000?style=flat&logo=pycharm&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white"/></td>
+    <td><img src="#"/>Pandas</td> 
     <td></td>
     <td></td>
   </tr>
-</table>
-
-
->### <span style="color:cyan"> Data Server </span>
-<table>
-  <tr>
-    <td>PyCharm</td>
-    <td><img src="https://img.shields.io/badge/pycharm-%23000000?style=flat&logo=pycharm&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"/></td>
-  </tr>  
-  <tr>
-    <td>RDBMS</td>
-    <td><img src="https://img.shields.io/badge/mysql-4479A1?style=flat&logo=mysql&logoColor=white"/></td>
-    <td></td>
-  </tr>
-</table>
+</table> 
 <br><br><br>
 
 
@@ -135,35 +120,40 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
 작은 것 같지만 이와 같은 것들이 쌓여서 아주 기민하고 민첩한 조직을 만들어 냅니다.
 ```
 
-# 4. 애자일 보드 (WBS + 요구사항 명세서 대응)
-### ✅ Streamlit UI - Streamlit UI 구성
-![image](https://github.com/user-attachments/assets/eab8d436-68e7-47e1-a1af-51734e88d5fa)
+# 4. 애자일 보드
+### ✅ Royal Bitters Data Analysis 
+![image](url)
+<br><br><br>
+
+### ✅ Collected Data Preview (활용 데이터셋)
+![image](url)
 
 <br><br><br>
 
-### ✅ Data Server - MySQL에 차량 데이터 관리
-![image](https://github.com/user-attachments/assets/98fec318-f43d-48a9-bf7d-ca08913fe7b9)
-
-<br><br><br>
 
 
+# 5. 전처리 과정
 
-# 6. ERD
+# 6. 그래프
 
-# 7. 주요 프로시저
+# EDA (상관관계 분석)
+상관관계 분석 -> 각 컬럼별로 상관관계표 넣기 plt.figure(figsize=(21, 9)) sns.heatmap(data.corr(), vmax=1.0, vmin=-1.0, cmap='coolwarm', annot=True)
+결과 해석
 
-# 8. Result (수행 결과)
+# 8. 모델링
+
+# 9. 결론
 
   
-# 9. 한 줄 회고
+# 10. 한 줄 회고
 🤓<b>김현우</b>  
-_Ddd구조에 더 많은 학습이 필요하다고 느껴졌고 많은 지식을 알아갔던 시간이였던 거 같습니다.👏_
+_               👏_
 
 👨‍💻<b>왕환민</b>  
-_크롤링이라는 것을 처음 사용해봤는데 아직 완전히 이해하지 못했습니다. 좋은 경험이 되었고 더욱 공부에 힘내겠습니다._
+_               👏_
 
-😺<b>정아람</b>  
-_좋은 팀원분들을 만나 덕분에 많이 배울 수 있었고 프로젝트도 잘 마무리될 수 있었다고 생각합니다. 수고하셨습니다😊_
+😺<b>양의정</b>  
+_               👏_
 
 🪐<b>손승일</b>  
-_학창시절에 배우기만 했던 DDD구조를 직접 구현해 보면서 코딩 실력이 예전에 비해서 많이 늘은것 같다._
+_               👏_
