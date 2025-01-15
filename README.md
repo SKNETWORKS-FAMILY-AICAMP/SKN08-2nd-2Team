@@ -61,8 +61,7 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
 자체 쇼핑몰에 등록한 고객 데이터를 활용하여 추후 고객이 얼마나 이탈할 것인지 데이터 분석을 통해 예측 
 
 ### ✅프로젝트 필요성(배경)
-- 고객의 이탈 원인을 파악해 더욱 만족스러운 서비스를 제공할 수 있음
-- 
+고객의 이탈 원인을 파악해 더욱 만족스러운 서비스를 제공할 수 있음
 
 ### ✅프로젝트 목표
 - 데이터 수집
@@ -138,7 +137,7 @@ SK Networks AI 8기 과정 2번째 단위 프로젝트입니다.
 ![Untitled design](https://github.com/user-attachments/assets/e3a6d0e2-d832-409d-bb57-950273c24b71)
 <br><br>
 
-🗸satisfaction 데이터
+🗸 전처리된 데이터
 ![satisfaction](https://github.com/user-attachments/assets/a8694169-70d3-41a8-a63e-dbf34df8d269)
 <br><br><br>
 
